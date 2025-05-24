@@ -41,7 +41,7 @@ const Home = () => {
             data-aos="fade-up"
           >
             At Borneo Royal Green, we present premium kratom leaves grown in the
-            fertile soil of western Borneo — a green gem hidden in the heart of
+            fertile soil of western Borneo a green gem hidden in the heart of
             the island. Known to kratom lovers worldwide, each leaf contains
             natural power and rich alkaloid content, bringing harmony between
             tradition and serenity.
