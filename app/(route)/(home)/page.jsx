@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="relative bg-[url('/Background.1.jpg')] bg-cover bg-[center_0%] h-screen flex items-center justify-center">
+      <section className="relative bg-[url('/background.1.jpg')] bg-cover bg-[center_0%] h-screen flex items-center justify-center">
         {/* Overlay gelap */}
         <div className="absolute inset-0 bg-black/50 z-0"></div>
 
