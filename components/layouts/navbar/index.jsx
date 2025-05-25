@@ -17,7 +17,7 @@ const Navbar = () => {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-green-50/30 backdrop-blur-md shadow-md">
+    <nav className="bg-white sticky top-0 z-50 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Logo />
         <div className="hidden md:flex space-x-6">

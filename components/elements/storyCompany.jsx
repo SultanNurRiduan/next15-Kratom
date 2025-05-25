@@ -19,7 +19,7 @@ const StoryCompany = () => {
 
   return (
     <section
-      className="flex flex-col md:flex-row items-center md:items-start bg-gradient-to-r from-green-100 to-white px-4 py-8 md:px-12 md:py-16 gap-6 md:gap-12 rounded-2xl"
+      className="flex flex-col md:flex-row items-center md:items-start bg-gradient-to-r from-green-100 to-white px-4 py-8 md:px-12 md:py-16 gap-6 md:gap-12"
       data-aos="fade-right"
     >
       <div className="w-full md:w-1/2 relative">

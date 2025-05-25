@@ -22,7 +22,7 @@ const ProductPage = () => {
   return (
     <>
       <section
-        className="min-h-screen max-w-7xl mx-auto px-6 py-12 flex flex-col-reverse md:flex-row gap-12"
+        className="bg-white min-h-screen  mx-auto px-6 py-12 flex flex-col-reverse md:flex-row gap-12"
         data-aos="fade-down"
       >
         <ProductList
