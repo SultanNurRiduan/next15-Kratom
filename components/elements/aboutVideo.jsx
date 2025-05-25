@@ -12,7 +12,7 @@ const AboutVideo = () => {
   if (!isClient) return null;
 
   return (
-    <section className="w-full overflow-hidden flex justify-center relative">
+    <section className="w-full overflow-hidden flex justify-center relative bg-white">
       {/* Wrapper yang fleksibel di mobile dan fullscreen di desktop */}
       <div className="relative w-full sm:h-screen">
         {/* Video Background */}
