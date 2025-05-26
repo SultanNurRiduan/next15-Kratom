@@ -12,7 +12,7 @@ const CART_DATA = [
     id: 2,
     name: "Kratom Leaf Crumbs",
     image: "/daun.jpg",
-    description: "Experience the authenticity and natural power of Kratom Leaf Crumbs, with Mitragynine 1.3%+ content that provides a stable and long-lasting sensation. Made from high-quality kratom leaf crumbs from western Borneo, this product is ideal for those who want an authentic kratom experience with a strong yet balanced character. The right choice for kratom lovers looking for uncompromising quality."
+    description: "Experience the authenticity and natural power of Kratom Leaf Crumbs, with Mitragynine 1.1%+ content that provides a stable and long-lasting sensation. Made from high-quality kratom leaf crumbs from western Borneo, this product is ideal for those who want an authentic kratom experience with a strong yet balanced character. The right choice for kratom lovers looking for uncompromising quality."
 
   },
   {
