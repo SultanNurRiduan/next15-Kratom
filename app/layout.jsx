@@ -3,7 +3,7 @@ import "./globals.css";
 import Layout from "@/components/layouts/Layout";
 import GlobalLoader from "@/components/elements/loader";
 import AOSWrapper from "@/components/elements/AOSWrapper";
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,8 +21,6 @@ export const metadata = {
     "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
   viewport:
     "width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1",
-    name : "google-site-verification",
-    content : "hvKIMAHVhEZSSbIXlEpUFG6-844a_iZTfNj6tHzfEFg"
 };
 
 export default function RootLayout({ children }) {
@@ -30,6 +28,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/logo.png" type="image/png" />
+        <meta
+          name="google-site-verification"
+          content="hvKIMAHVhEZSSbIXlEpUFG6-844a_iZTfNj6tHzfEFg"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
