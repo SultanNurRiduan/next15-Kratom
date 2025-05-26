@@ -21,6 +21,8 @@ export const metadata = {
     "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
   viewport:
     "width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1",
+    name : "google-site-verification",
+    content : "hvKIMAHVhEZSSbIXlEpUFG6-844a_iZTfNj6tHzfEFg"
 };
 
 export default function RootLayout({ children }) {
