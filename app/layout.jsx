@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Borneo Royal Green | Buy Premium Borneo Kratom",
+  title: "borneoroyalgreen",
   description:
     "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
   viewport:
