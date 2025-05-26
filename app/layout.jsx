@@ -17,15 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Borneo Royal Green | Buy Premium Borneo Kratom",
   description: "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
+    viewport:
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0",
 };
 
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-  
-};
 
 export default function RootLayout({ children }) {
   return (
