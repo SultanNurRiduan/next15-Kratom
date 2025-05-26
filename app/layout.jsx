@@ -3,6 +3,7 @@ import "./globals.css";
 import Layout from "@/components/layouts/Layout";
 import GlobalLoader from "@/components/elements/loader";
 import AOSWrapper from "@/components/elements/AOSWrapper";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,10 +17,11 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Borneo Royal Green | Buy Premium Borneo Kratom",
-  description: "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
-  viewport:"width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1",
+  description:
+    "Shop high-quality, authentic kratom sourced directly from West Borneo, Indonesia. Trusted by kratom enthusiasts worldwide for purity and potency.",
+  viewport:
+    "width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1",
 };
-
 
 export default function RootLayout({ children }) {
   return (
@@ -31,7 +33,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <AOSWrapper />
-        <Layout> {children} </Layout>
+        <Layout>
+          {" "}
+          {children}
+          <Analytics />
+        </Layout>
         <GlobalLoader />
       </body>
     </html>
