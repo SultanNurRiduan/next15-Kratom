@@ -24,6 +24,7 @@ export const viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
+  
 };
 
 export default function RootLayout({ children }) {
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/logo.png" type="image/png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <AOSWrapper />
         <Layout> {children} </Layout>
