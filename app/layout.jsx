@@ -30,6 +30,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Borneo Royal Green",
+              "url": "https://www.borneoroyalgreen.com",
+              "logo": "https://www.borneoroyalgreen.com/logo_112x112.png"
+            }),
+          }}
+        />
         <meta
           name="google-site-verification"
           content="hvKIMAHVhEZSSbIXlEpUFG6-844a_iZTfNj6tHzfEFg"
