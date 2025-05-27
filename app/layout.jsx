@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "Borneo Royal Green",
-              "url": "https://www.borneoroyalgreen.com",
-              "logo": "https://www.borneoroyalgreen.com/logo_112x112.png"
+              name: "Borneo Royal Green",
+              url: "https://www.borneoroyalgreen.com",
+              logo: "https://www.borneoroyalgreen.com/logo_112x112.png",
             }),
           }}
         />
@@ -46,6 +46,13 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="hvKIMAHVhEZSSbIXlEpUFG6-844a_iZTfNj6tHzfEFg"
         />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/logo_112x112.png"
+        />
+        <link rel="apple-touch-icon" href="/logo_112x112.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
