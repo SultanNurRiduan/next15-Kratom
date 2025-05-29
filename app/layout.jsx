@@ -22,9 +22,9 @@ export const metadata = {
   viewport:
     "width=device-width, user-scalable, initial-scale=1, maximum-scale=1, minimum-scale=1",
   icons: {
-    icon: "/favicon.ico", // better fallback format for all platforms
+    icon: "/favicon.ico", 
     shortcut: "/favicon.ico",
-    apple: "/logo.png", // optional, for iOS
+    apple: "/logo.png", 
   },
 };
 
