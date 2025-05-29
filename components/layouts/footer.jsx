@@ -54,7 +54,6 @@ const Footer = () => {
           <p className="text-center md:text-left text-xs text-primary-dark/70 leading-relaxed">
             Discover high-quality kratom products directly from Borneo.
             Safe, natural, and trusted.
-            
           </p>
         </div>
 
